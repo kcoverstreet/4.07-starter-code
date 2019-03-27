@@ -101,6 +101,15 @@ html {
   height: 100%;
 }
 
+h1, main {
+    color: white;
+   
+}
+
+main {
+    font-weight: lighter;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
@@ -118,7 +127,7 @@ body {
 .div-1, .div-2, .div-3 {
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
+  font-size: 1em;
   background-color:black;
   height: 200px;
   display: flex;
@@ -135,6 +144,9 @@ body {
     border-right: 1px solid grey;
 }
 
+footer {
+    
+}
 
 /* ==========================================================================
    Helper classes
